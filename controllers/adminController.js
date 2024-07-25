@@ -1,5 +1,5 @@
-const Admin = require('../models/Admin');
 const bcrypt = require('bcryptjs');
+const Admin = require('../models/Admin');
 
 // Create a new admin
 exports.createAdmin = async (req, res) => {
